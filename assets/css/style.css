@@ -22,14 +22,7 @@
 .hide-deco:hover {
     text-decoration: none;
 }
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.sticky + .container-fluid {
-    padding-top: 60px;
-}
+
 .intro {
     height: 30em;
     display: flex;
@@ -51,7 +44,7 @@
     background-color: white;
 }
 .projects {
-    height: 30em;
+    height: auto;
 }
 .pro1 {
     display: flex;
@@ -90,5 +83,14 @@
 }
 .t-color:hover {
     text-decoration: none;
+    color: white;
+}
+.about {
+    height: 20em;
+}
+.terminal {
+    height: 18em;
+    width: 80%;
+    background-color: black;
     color: white;
 }
