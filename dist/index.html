@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio</title>
+    <script src="https://use.fontawesome.com/663c2574c9.js"></script>
+</head>
+<body>
+    <div class="wrap-bg">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="p-1 m-1 nav navbar-nav">
+                <a href="https://github.com/addod19">
+                    <img src="./assets/images/my.jpg" alt="profile pic" class="navbar-brand img-size"/>
+                </a>
+            </div>
+            <button class="navbar-toggler t-bg" type="button" data-toggle="collapse" data-target="#toggleMe" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="toggleMe">
+                <ul class="d-flex flex-row-reverse bd-highlight mr-3">
+                    <li class="p-2 bd-highlight hide-bullet"><a class="hide-deco " href="#blog">Blog</a></li>
+                    <li class="p-2 bd-highlight hide-bullet"><a class="hide-deco" href="#about">About</a></li>
+                    <li class="p-2 bd-highlight hide-bullet"><a class="hide-deco" href="#portfolio">Portfolio</a></li>
+                    <li class="p-2 bd-highlight hide-bullet"><a class="hide-deco" href="#contact">Contact</a></li>
+                    <li class="p-2 bd-highlight hide-bullet"><a class="hide-deco" href="index.html">Home</a></li>  
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <main class="main mt-3">
+                <div class="intro" id="home">
+                    <aside class="text-color soc-handle mt-5">
+                        <ul>
+                            <li class="hide-bullet"><a href="https://twitter.com/DanielLarbiAdd1" class="icon-bg"><i class="fa fa-twitter fa-4x"></i></a></li>
+                            <li class="hide-bullet"><a href="https://github.com/addod19" class="icon-bg"><i class="fa fa-github fa-4x"></i></a></li>
+                            <li class="hide-bullet"><a href="https://www.linkedin.com/in/daniel-larbi-addo" class="icon-bg"><i class="fa fa-linkedin fa-4x"></i></a></li>
+                            <li class="hide-bullet"><a href="https://angel.co/u/daniel-larbi-addo" class="icon-bg"><i class="fa fa-angellist fa-4x"></i></a></li>
+                            <li class="hide-bullet"><a href=""><i class="fa fa-codersrank fa-2x"></i></a></li>
+                        </ul>
+                    </aside>
+                    <main class="text-color main-full">
+                        <h1>Hi there, I am Daniel Larbi Addo</h1>
+                        <h3 class="text-center mt-2">Full Stack Web Developer</h3>
+                        <div class="text-center mt-3">Creating fantastic web experience for next generation users</div>
+                        <div class="text-center mt-5"><a href="#recent_projects" class="hide-deco">Recent Projects</a></div>
+                    </main>
+                </div>
+                <div class="projects text-center text-color" id="portfolio">
+                    <h1>Projects</h1>
+
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/fb.png" alt="facebook" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">Facebook Clone</h1>
+                            <div class="sec-color mt-3"> Facebook-like social network application.The features of this application tend to mimic most basic features of the facebook social media application</div>
+                            <div class="sec-color mt-3">Ruby on Rails, Postgresql, Omniauth-facebook, Bootstrap, CSS</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://secret-sea-76381.herokuapp.com/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/facebook-clone"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/tic.png" alt="tictactoe" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">TicTacToe</h1>
+                            <div class="sec-color mt-3">TicTacToe is a game app played between 2 players, a player can win, loose or draw</div>
+                            <div class="sec-color mt-3">Javascript (ES6), CSS, HTML, Factory function, Module Pattern</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://macnick.github.io/Tic-Tac-Toe-JS/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/Tic-Tac-Toe-JS"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/event.png" alt="Private Events" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">Private Events</h1>
+                            <div class="sec-color mt-3">This project is similar to a private Eventbrite which allows users to create events and then manage user signups. A user can create events. A user can attend many events.</div>
+                            <div class="sec-color mt-3">Ruby on Rails, HTML, SCSS, Bootstrap</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://blooming-mesa-54776.herokuapp.com/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/private-events"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/todos.png" alt="todos" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">TODOS</h1>
+                            <div class="sec-color mt-3">A simple todo list to keep track of our daily activites.Each project has it's own todo list to tract progress</div>
+                            <div class="sec-color mt-3">Javascript, ES(6), UI Kit, HTML, CSS</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://blooming-mesa-54776.herokuapp.com/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/private-events"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/sm.png" alt="smashing magazine" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">Smashing Magazine Clone</h1>
+                            <div class="sec-color mt-3">Building a clone of smashingmagazine.com website, aligning all elements with float and flex or grid</div>
+                            <div class="sec-color mt-3">HTML, CSS, Desktop App</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://addod19.github.io/design-tearDown/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/design-tearDown"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pro1">
+                        <div class="col-sm-12 col-lg-6 prof-img">
+                            <img class="tic" src="./assets/images/news.png" alt="Newsweek Clone" />
+                        </div>
+                        <div class="col-sm-12 col-lg-6 desc">
+                            <h1 class="sec-color">Newsweek Clone</h1>
+                            <div class="sec-color mt-3">Building a newsweek clone website using bootstrap classes. Considering mobile first responsive design</div>
+                            <div class="sec-color mt-3">HTML, CSS, Bootstrap</div>
+                            <div class="mt-3 d-flex">
+                                <div class="live-demo">
+                                    <a class="t-color" href="https://addod19.github.io/using-bootstrap/">Demo</a>
+                                </div>
+                                <a class="ml-3" href="https://github.com/addod19/using-bootstrap"><i class="fa fa-github fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about mt-4 wrap-bg" id="about">
+                    <h1 class="text-color text-center">About</h1>
+                    <div class="row terminal mt-5">
+                        <div class="d-flex top-terminal">
+                            <span class="red"></span>
+                            <span class="gold"></span>
+                            <span class="green"></span>
+                        </div>
+                        <div class="col-sm-12 col-md-12 ">
+                            <div class="current_loc">
+                                <div> > Daniel.Current_location</div>
+                                <div> "Accra, Ghana"</div><br>
+                                <div> > Daniel.Current_job</div>
+                                <div> "Technical Support Engineer, Microverse"</div><br>
+                                <div> > Daniel.Current_job_location</div>
+                                <div> "Remote"</div><br>
+                                <div> > Daniel.Education</div>
+                                <div> "Remote Full Stack Bootcamp, Microverse"</div><br>
+                                <div> > Daniel.SKills</div>
+                                <div> "HTML, CSS, Javascript, Ruby, Bootstrap, UI Kit, Database, Ruby on Rails,
+                                    RSpec, Capybara, Jest, Webpack, Git, Heroku, ES6, TDD, SASS, React, Redux"
+                                </div><br>
+                                <div> > Daniel.Interest</div>
+                                <div> [ 'Soccer' , 'Seasonal Movies' ]</div><br>
+                                <div> > Daniel.Contact</div>
+                                <div> [" <a href="https://twitter.com/DanielLarbiAdd1" class="hide-underline">Twitter</a>, <a href="https://web.facebook.com/daniel.addo.75873/" class="hide-underline">Facebook</a>, <a href="https://www.linkedin.com/in/daniel-larbi-addo/" class="hide-underline">Linkedin</a>" ] </div><br>
+                            
+                                    <span> > <span class="blink" id="blink"></span></span>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div id="blog" class="blog mt-5">
+                        <h1 class="text-center text-color">BLOG</h1>
+                        <div class="row mobile">
+                            <div class="col-sm-12 col-md-6 d-flex flex-column">
+                                <a href="https://medium.com/@addodaniellarbi/using-css-shape-outside-clip-path-and-float-property-for-shape-creation-e95a842f304c">
+                                    <img src="../dist/assets/images/cro.png" alt="" />
+                                </a>
+                                <h1 class="text-color">Design Shapes with CSS</h1>
+                                <span class="text-color">Using shape-outside, clip-path and float to create shapes</span>
+                                <time class="text-color" datetime="2019-09-19">October 19, 2019</time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="../dist/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+.wrap-bg {
+    background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid,
+.intro,
+.pro1 {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    width: 100%;
+    height: 160em;
+}
+.hide-bullet {
+    list-style: none;
+}
+.hide-deco {
+    height: 2em;
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 3em;
+}
+.hide-deco:hover,
+.hide-underline:hover,
+.t-color:hover {
+    text-decoration: none;
+}
+
+.intro {
+    height: 30em;
+    margin-top: 10em;
+}
+.text-color {
+    color: white;
+}
+.soc-handle {
+    width: 30%;
+}
+.img-size {
+    width: 3em;
+    height: 3em;
+    border-radius: 5em;
+}
+.t-bg {
+    background-color: white;
+}
+.projects {
+    height: auto;
+}
+.pro1,
+.terminal {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.pro1 {
+    height: auto;
+    width: 80%;
+    margin-top: 6em;
+    margin-left: 10%;
+    background-color: white;
+    box-shadow: 5px 10px 5px rgba(184, 20, 20, 0.2), -5px -5px 5px rgb(168, 167, 167, 0.2);
+}
+.prof-img {
+    width: 50%;
+    height: 20em;
+}
+.prof-img > .tic {
+    width: 100%;
+    height: 18em;
+    margin-top: 1em;
+}
+.sec-color {
+    color: #090979;
+    margin-left: 0.7em;
+    margin-top: 0.5em;
+}
+.live-demo {
+    width: 6em;
+    height: 3em;
+    padding: 0.7em;
+    margin-left: 6%;
+    background-color: #766df2;
+    border-radius: 1em;
+}
+.t-color {
+    color:#f2e709;
+}
+.t-color:hover {
+    color: white;
+}
+.about {
+    height: 20em;
+}
+.terminal {
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.top-terminal {
+    background-color: grey;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.red,
+.gold,
+.green {
+    height: 1em;
+    width: 1em; 
+    border-radius: 50%;
+    padding: 5px;
+    margin: 2px;
+}
+.red {
+    background: red;
+}
+.gold {
+    background-color: gold;
+}
+.green {
+    background-color: green;
+}
+.current_loc {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.blink {
+    height: 1.3em;
+    width: 0.2em;
+    background-color: red;
+    display: flex;
+
+}
+.blog {
+    height: 30emm;
+}
+@media only screen and (max-width: 670px) {
+    .soc-handle {
+        display: none;
+    }
+    .tic {
+        width: 200%;
+    }
+}
+@media only screen and (min-width: 556px) {
+    .prof-img {
+        width: 100%;
+        border: 2px dotted red;
+    }
+}
